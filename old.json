@@ -1,0 +1,425 @@
+[
+  {
+    "name": ".env.local",
+    "type": "file"
+  },
+  {
+    "name": ".gitignore",
+    "type": "file"
+  },
+  {
+    "name": "cmd",
+    "type": "dir",
+    "children": [
+      {
+        "name": "main.go",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "name": "components.json",
+    "type": "file"
+  },
+  {
+    "name": "configs",
+    "type": "dir",
+    "children": [
+      {
+        "name": "config.yaml",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "name": "drizzle",
+    "type": "dir",
+    "children": [
+      {
+        "name": "0000_far_grey_gargoyle.sql",
+        "type": "file"
+      },
+      {
+        "name": "0001_panoramic_eddie_brock.sql",
+        "type": "file"
+      },
+      {
+        "name": "0002_lethal_vivisector.sql",
+        "type": "file"
+      },
+      {
+        "name": "meta",
+        "type": "dir",
+        "children": [
+          {
+            "name": "0000_snapshot.json",
+            "type": "file"
+          },
+          {
+            "name": "0001_snapshot.json",
+            "type": "file"
+          },
+          {
+            "name": "0002_snapshot.json",
+            "type": "file"
+          },
+          {
+            "name": "_journal.json",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "drizzle.config.ts",
+    "type": "file"
+  },
+  {
+    "name": "eslint.config.mjs",
+    "type": "file"
+  },
+  {
+    "name": "go.mod",
+    "type": "file"
+  },
+  {
+    "name": "internal",
+    "type": "dir",
+    "children": [
+      {
+        "name": "model",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "repository",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "service",
+        "type": "dir",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "lib",
+    "type": "dir",
+    "children": []
+  },
+  {
+    "name": "new.json",
+    "type": "file"
+  },
+  {
+    "name": "next-env.d.ts",
+    "type": "file"
+  },
+  {
+    "name": "next.config.ts",
+    "type": "file"
+  },
+  {
+    "name": "old-structure.json",
+    "type": "file"
+  },
+  {
+    "name": "package-lock.json",
+    "type": "file"
+  },
+  {
+    "name": "package.json",
+    "type": "file"
+  },
+  {
+    "name": "pkg",
+    "type": "dir",
+    "children": [
+      {
+        "name": "utils",
+        "type": "dir",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "postcss.config.mjs",
+    "type": "file"
+  },
+  {
+    "name": "public",
+    "type": "dir",
+    "children": [
+      {
+        "name": "file.svg",
+        "type": "file"
+      },
+      {
+        "name": "globe.svg",
+        "type": "file"
+      },
+      {
+        "name": "next.svg",
+        "type": "file"
+      },
+      {
+        "name": "vercel.svg",
+        "type": "file"
+      },
+      {
+        "name": "window.svg",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "name": "README.md",
+    "type": "file"
+  },
+  {
+    "name": "src",
+    "type": "dir",
+    "children": [
+      {
+        "name": "actions",
+        "type": "dir",
+        "children": [
+          {
+            "name": "chat.ts",
+            "type": "file"
+          },
+          {
+            "name": "types",
+            "type": "dir",
+            "children": [
+              {
+                "name": "tools.ts",
+                "type": "file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "app",
+        "type": "dir",
+        "children": [
+          {
+            "name": "(auth)",
+            "type": "dir",
+            "children": [
+              {
+                "name": "login",
+                "type": "dir",
+                "children": [
+                  {
+                    "name": "page.tsx",
+                    "type": "file"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "(protected)",
+            "type": "dir",
+            "children": [
+              {
+                "name": "chat",
+                "type": "dir",
+                "children": [
+                  {
+                    "name": "page.tsx",
+                    "type": "file"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "api",
+            "type": "dir",
+            "children": [
+              {
+                "name": "ai",
+                "type": "dir",
+                "children": [
+                  {
+                    "name": "route.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "auth",
+                "type": "dir",
+                "children": [
+                  {
+                    "name": "[...nextauth]",
+                    "type": "dir",
+                    "children": [
+                      {
+                        "name": "route.ts",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "chat",
+                "type": "dir",
+                "children": [
+                  {
+                    "name": "route.ts",
+                    "type": "file"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "favicon.ico",
+            "type": "file"
+          },
+          {
+            "name": "globals.css",
+            "type": "file"
+          },
+          {
+            "name": "layout.tsx",
+            "type": "file"
+          },
+          {
+            "name": "page.tsx",
+            "type": "file"
+          },
+          {
+            "name": "providers.tsx",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "components",
+        "type": "dir",
+        "children": [
+          {
+            "name": "cards",
+            "type": "dir",
+            "children": [
+              {
+                "name": "F1Card.tsx",
+                "type": "file"
+              },
+              {
+                "name": "StockCard.tsx",
+                "type": "file"
+              },
+              {
+                "name": "WeatherCard.tsx",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "chat",
+            "type": "dir",
+            "children": [
+              {
+                "name": "Chat.tsx",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "ui",
+            "type": "dir",
+            "children": [
+              {
+                "name": "button.tsx",
+                "type": "file"
+              },
+              {
+                "name": "card.tsx",
+                "type": "file"
+              },
+              {
+                "name": "input.tsx",
+                "type": "file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "db",
+        "type": "dir",
+        "children": [
+          {
+            "name": "index.ts",
+            "type": "file"
+          },
+          {
+            "name": "schema.ts",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "lib",
+        "type": "dir",
+        "children": [
+          {
+            "name": "auth.ts",
+            "type": "file"
+          },
+          {
+            "name": "authOptions.ts",
+            "type": "file"
+          },
+          {
+            "name": "tools.ts",
+            "type": "file"
+          },
+          {
+            "name": "typeGuards.ts",
+            "type": "file"
+          },
+          {
+            "name": "utils.ts",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "middleware.ts",
+        "type": "file"
+      },
+      {
+        "name": "types",
+        "type": "dir",
+        "children": [
+          {
+            "name": "tools.ts",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "structure.js",
+    "type": "file"
+  },
+  {
+    "name": "treefile",
+    "type": "file"
+  },
+  {
+    "name": "tsconfig.json",
+    "type": "file"
+  }
+]
